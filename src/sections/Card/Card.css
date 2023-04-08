@@ -1,0 +1,28 @@
+.card-item{
+    background-color: var(--color-cont);
+    padding: 30px 15px 76px;
+    border-radius: 23px;
+    margin-top: 15px;
+}
+
+.card-item ul li{
+    list-style: none;
+}
+.card-item p{
+    margin: 0
+}
+
+.custom-float{
+    margin: 10px 0;
+}
+
+@media (max-width:576px) {
+    .custom-float ul{
+        padding: 0 !important;
+    }
+    .card-item{
+        font-size: 14px;
+
+    }
+    
+}

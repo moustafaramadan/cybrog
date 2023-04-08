@@ -1,0 +1,87 @@
+.items ul{
+    list-style-type: none;
+    border-bottom: 1px solid #eeeeee17;
+
+}
+
+.items ul li{
+    display: inline-block;
+    margin-top: 15px;
+    width: 17%;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.items ul li:first-child{
+    width: 110px;
+}
+.items ul li img{
+    border-radius: 23px;
+}
+
+.items ul li h4{
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.items ul li span{
+    color:#eeeeee3a
+}
+.items ul li:last-child{
+    margin-left: 50px;
+
+}
+
+.items ul li button{
+width: 140px;
+border-radius: 30px;
+background-color: transparent;
+border-color:#eeeeee3a ;
+}
+
+@media (max-width:1200px) {
+    .items ul li{
+        padding: 0;
+    }
+    .items ul li:last-child{
+        margin-left: 0;
+       }
+       .items{
+        padding: 0 !important;
+       }
+}
+
+@media (max-width:992px) {
+    .items ul li{
+        width: 48% !important;
+        text-align: center;
+    }
+    .items ul li:last-child{
+     margin-left: 0;
+    }
+
+}
+
+
+@media (max-width:576px) {
+    .items ul li:first-child{
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .items ul li:last-child{
+        width: 100% !important;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .items ul{
+        padding: 0 !important;
+       }
+       .items ul li h4,
+       .items ul li
+       {
+        font-size: 14px !important;
+       }
+
+}

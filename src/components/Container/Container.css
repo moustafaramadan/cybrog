@@ -1,0 +1,6 @@
+.main-container {
+    background-color: var(--color-cont);
+    padding: 60px !important;
+    border-radius: 25px;
+    margin-top: 25px !important;
+}

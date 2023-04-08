@@ -1,0 +1,52 @@
+.main-hero {
+    padding: 80px 60px;
+    background-image: url('../../assets/images/banner-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 380px;
+    background-position: center center;
+    border-radius: 25px;
+    color: white;
+    margin: 0 auto;
+}
+
+.hero-text {
+    width: 55%;
+}
+
+.hero-text p {
+    font-size: 20px;
+}
+
+.hero-text h1 {
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.hero-text h1 span {
+    color: var(--color-primary)
+}
+
+
+
+.hero-text .btn-hero:hover {
+    background-color: white;
+    color: var(--color-primary);
+}
+
+@media (max-width:768px) {
+    .hero-text{
+        width: 100%;
+    }
+    
+}
+
+@media (max-width:576px) {
+    .hero-text h1{
+        font-size: 22px !important;
+    }
+    .main-hero{
+        padding: 138px 19px;
+    }
+    
+}
