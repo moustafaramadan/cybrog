@@ -1,11 +1,11 @@
 import "./App.css";
 import {Header, Footer, Container } from "./components/index";
 import { Home, Profile } from "./Pages/ingexg";
-import { Route, Routes, BrowserRouter } from "react-router-dom";
+import { Route, Routes, HashRouter  } from "react-router-dom";
 const App = ()=>{
     return (
         <>
-    <BrowserRouter>
+    <HashRouter >
         <Header/>
         <Container>
         <Routes>
@@ -14,7 +14,7 @@ const App = ()=>{
         </Routes>
         </Container>
         <Footer/>  
-    </BrowserRouter>
+    </HashRouter >
          
         </>
     )
