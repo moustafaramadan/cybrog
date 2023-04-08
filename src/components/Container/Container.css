@@ -4,3 +4,9 @@
     border-radius: 25px;
     margin-top: 25px !important;
 }
+
+@media (max-width:576px) {
+    .main-container{
+        padding: 25px !important;
+    }
+}

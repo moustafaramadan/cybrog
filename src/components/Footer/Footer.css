@@ -3,3 +3,9 @@
     color: white;
     margin-top: 15px;
 }
+
+@media (max-width:576px) {
+    .footer p{
+        font-size: 14px;
+    }
+}
